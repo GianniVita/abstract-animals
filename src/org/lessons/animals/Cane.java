@@ -1,4 +1,4 @@
-package java.lessons.animals;
+package org.lessons.animals;
 
 public class Cane extends AbstractAnimal {
 
