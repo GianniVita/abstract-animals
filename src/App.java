@@ -8,13 +8,13 @@ import org.lessons.animals.IVolante;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("");
+        System.out.println("---------------------------");
 
        faiVolare(new Aquila());
        faiVolare(new Passerotto());
 
        faiNuotare(new Delfino());
-       
+
 
         Aquila newAquila = new Aquila();
         newAquila.dormi();
@@ -22,10 +22,14 @@ public class App {
         newAquila.mangia();
         newAquila.vola();
 
+        System.out.println("---------------------------");
+
         Cane newCane = new Cane();
         newCane.dormi();
         newCane.verso();
         newCane.mangia();
+
+        System.out.println("---------------------------");
 
         Delfino newDelfino = new Delfino();
         newDelfino.dormi();
@@ -33,11 +37,15 @@ public class App {
         newDelfino.mangia();
         newDelfino.nuota();
 
+        System.out.println("---------------------------");
+
         Passerotto newPasserotto = new Passerotto();
         newPasserotto.dormi();
         newPasserotto.verso();
         newPasserotto.mangia();
         newPasserotto.vola();
+
+        System.out.println("---------------------------");
 
     }
 
