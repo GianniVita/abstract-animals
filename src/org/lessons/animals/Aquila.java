@@ -1,6 +1,11 @@
 package org.lessons.animals;
 
-public class Aquila extends AbstractAnimal {
+public class Aquila extends AbstractAnimal implements IVolante {
+
+    @Override
+    public void vola() {
+        System.out.println("Sto volandooooooo!!!!!!!!!!");
+    }
 
     @Override
     public void verso(){
